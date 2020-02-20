@@ -17,3 +17,8 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+
+.entry .entry-title:before {
+    display: none;
+  }
