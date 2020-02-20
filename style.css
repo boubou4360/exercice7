@@ -1,0 +1,73 @@
+/*
+ Theme Name:   Twenty Nineteen enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Nineteen enfant
+ Author:       Jay Bouchard
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenenfant
+*/
+.entry .entry-title:before {
+  display: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: aqua;
+}
+
+.liste {
+  list-style: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@-webkit-keyframes animEntrer {
+  from {
+  }
+  to {
+  }
+}
+
+@keyframes animEntrer {
+  from {
+  }
+  to {
+  }
+}
+
+.rayure {
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+  color: white;
+  -webkit-animation: animEntrer 3s forwards;
+          animation: animEntrer 3s forwards;
+}
+
+@-webkit-keyframes animSection {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes animSection {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.classe2 {
+  background: repeating-linear-gradient(45deg, #606dbc, #e26e02 10px, #b2b6c9 10px, #f55810 20px);
+  -webkit-animation: animSection 3s forwards;
+          animation: animSection 3s forwards;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,17 @@
 
+@keyframes animEntrer{
+  from{
+   
+      
+  }
+  to{
+    
+     
+  }
+}
+
+
+
 .rayure{
     background: repeating-linear-gradient(
       45deg,
@@ -8,9 +21,22 @@
       #465298 20px
     );
     color:white;
+    
+    animation: animEntrer 3s forwards;
   }
+
   
   
+  @keyframes animSection{
+    from{
+        opacity: 1;
+        
+    }
+    to{
+        opacity:0;
+       
+    }
+}
   
   .classe2{
       background: repeating-linear-gradient(
@@ -20,5 +46,11 @@
         #b2b6c9 10px,
         #f55810 20px
       );
+
+
+      animation: animSection 3s forwards;
    
     }
+
+
+  
