@@ -46,3 +46,9 @@ body{
     );
  
   }
+
+
+.liste{
+    list-style: none;
+    align-content: center;
+}
