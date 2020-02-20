@@ -16,6 +16,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: aqua;
+
 }
 
 
@@ -52,3 +54,5 @@ body{
     list-style: none;
     align-content: center;
 }
+
+
