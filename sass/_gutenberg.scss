@@ -1,11 +1,11 @@
 
 @keyframes animEntrer{
   from{
-   
+    transform: rotate(0deg)
       
   }
   to{
-    
+    transform: rotate(360deg)
      
   }
 }
@@ -20,9 +20,8 @@
       #465298 10px,
       #465298 20px
     );
-    color:white;
     
-    animation: animEntrer 3s forwards;
+    animation: animEntrer 5s forwards;
   }
 
   
@@ -53,4 +52,6 @@
     }
 
 
-  
+    p {
+      @include bordered(blue, 1px);  // Call mixin with two values
+    }
